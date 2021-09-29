@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_20">20dp</dimen>
+    <dimen name="size_24">24dp</dimen>
+    <dimen name="size_20_sp">20sp</dimen>
+    <dimen name="size_38">38dp</dimen>
+    <dimen name="size_44">44dp</dimen>
+    <dimen name="size_1">1dp</dimen>
+    <dimen name="size_10">10dp</dimen>
+    <dimen name="size_header_text">30sp</dimen>
+    <dimen name="size_spark_networks_text">35sp</dimen>
+    <dimen name="image_width">300dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="text_margin_from_top">260dp</dimen>
+</resources>
