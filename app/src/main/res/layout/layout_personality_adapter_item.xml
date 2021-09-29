@@ -11,7 +11,7 @@
         android:paddingStart="@dimen/size_20"
         android:paddingEnd="@dimen/size_20">
 
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,8 +20,7 @@
             android:gravity="center_vertical"
             android:text="@string/text_1"
             android:textColor="@color/text_color"
-            android:textSize="@dimen/size_20_sp">
-        </TextView>
+            android:textSize="@dimen/size_20_sp" />
 
         <RadioGroup
             android:id="@+id/radio_group"

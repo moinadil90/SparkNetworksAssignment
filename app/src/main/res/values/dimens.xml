@@ -7,7 +7,7 @@
     <dimen name="size_44">44dp</dimen>
     <dimen name="size_1">1dp</dimen>
     <dimen name="size_10">10dp</dimen>
-    <dimen name="size_header_text">30sp</dimen>
+    <dimen name="size_header_text">25sp</dimen>
     <dimen name="size_spark_networks_text">35sp</dimen>
     <dimen name="image_width">300dp</dimen>
     <dimen name="image_height">200dp</dimen>

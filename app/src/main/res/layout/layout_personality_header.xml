@@ -6,7 +6,7 @@
     android:padding="@dimen/size_10"
     android:layout_height="wrap_content">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/text_header"
         android:layout_width="match_parent"
         android:text="@string/header_text"
