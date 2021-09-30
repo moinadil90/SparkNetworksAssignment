@@ -35,6 +35,7 @@
                 android:layout_height="@dimen/size_38"
                 android:background="@drawable/rounded_corner"
                 android:text="@string/option_1"
+                android:checked="false"
                 android:textColor="@color/text_color" />
 
             <RadioButton

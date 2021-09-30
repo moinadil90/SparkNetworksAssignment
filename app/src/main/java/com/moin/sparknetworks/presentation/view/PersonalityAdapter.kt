@@ -71,27 +71,19 @@ class PersonalityAdapter(private val context: Context) :
             options?.forEachIndexed { index, alreadySelectedValue ->
                 when (index) {
                     0 -> {
-                        if (alreadySelectedValue == selectedOptionValue) {
-                            viewHolder.itemView.option_1.isChecked = true
-                        }
+                        viewHolder.itemView.option_1.isChecked = alreadySelectedValue == selectedOptionValue
                         viewHolder.itemView.option_1.text = options[index]
                     }
                     1 -> {
-                        if (alreadySelectedValue == selectedOptionValue) {
-                            viewHolder.itemView.option_2.isChecked = true
-                        }
+                        viewHolder.itemView.option_2.isChecked = alreadySelectedValue == selectedOptionValue
                         viewHolder.itemView.option_2.text = options[index]
                     }
                     2 -> {
                         viewHolder.itemView.option_3.text = options[index]
-                        if (alreadySelectedValue == selectedOptionValue) {
-                            viewHolder.itemView.option_3.isChecked = true
-                        }
+                        viewHolder.itemView.option_3.isChecked = alreadySelectedValue == selectedOptionValue
                     }
                     3 -> {
-                        if (alreadySelectedValue == selectedOptionValue) {
-                            viewHolder.itemView.option_4.isChecked = true
-                        }
+                        viewHolder.itemView.option_4.isChecked = alreadySelectedValue == selectedOptionValue
                         viewHolder.itemView.option_4.text = options[index]
                     }
 
